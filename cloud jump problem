@@ -1,0 +1,16 @@
+problem is there is game in which to win you have to jump through the clouds such that
+there are some clouds which are thunderheads and some are cumulus(good) which are indicated by 1 and 0 respectivly.
+player can jump from one to the next cloud either one place or two place ahead avoiding the thunder head clouds.
+player always wins in the game.
+find the minimum number of jumps to reach the end 
+input array of any size with only {0,1} values
+sample inpute 1:
+7
+0 0 1 0 0 1 0
+sample outpute:
+4
+sample input 2:
+6
+0 0 0 0 1 0
+sample output:
+3
