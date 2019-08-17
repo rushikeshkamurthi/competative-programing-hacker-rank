@@ -1,0 +1,39 @@
+int countingValleys(int n, string s) {            // from here to 
+int i,j,S=0,D=0,U=0,count=0;
+char z[n];
+strcpy(z,s.c_str());
+for(i=0;i<n;i++)
+{
+if(z[i]=='D')
+{
+D++;
+S--;
+}
+else if(z[i]=='U'){
+U++;
+S++;
+if(S==0)
+count++;
+}
+}
+return count;
+}                                             // to till here  you logic is important remaining code will be availavle by default
+int main()
+{
+    ofstream fout(getenv("OUTPUT_PATH"));
+
+    int n;
+    cin >> n;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    string s;
+    getline(cin, s);
+
+    int result = countingValleys(n, s);
+
+    fout << result << "\n";
+
+    fout.close();
+
+    return 0;
+}
