@@ -1,0 +1,12 @@
+you are given with a string s such that string s has all small letters
+this string s is repeated infinitly let number of times repeated be n
+i.e let s=abac and n=10 then repeated string will be 'abacabacab' provided that you have to calculate the number of occurances os letter a in infinite
+substring. 
+remember that value of n can be 0<=n<=100000000000 (very important point to be noted)
+let us see example
+sample input 1:
+aba
+10
+sample output:
+7
+explination : repeated string will be abaabaabaa number of occurance of 'a' is 7
