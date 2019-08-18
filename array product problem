@@ -1,0 +1,4 @@
+Given an array a[] of any randaom elements, you have to calculate products of all array elements from input array at for all index in the result array, product at each index contains the product of all the elements excluding the element at that index.
+for example let consider the array a[]={1,2,3,4,5} then output array should be {120,60,40,30,24}
+similarly example2: a[]={ 5,3,7,2,1} output array be {42,70,30,105,210}
+
